@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "notetaker",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/vgrom/Desktop/notetaker/amplify/backend/api/notetaker/schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authnotetaker7b55cda4"
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "API_KEY",
+        "expirationTime": 180,
+        "apiKeyExpirationDate": "2022-06-12T02:58:26.664Z",
+        "keyDescription": "notetaker api"
+      }
+    ]
+  }
+}
